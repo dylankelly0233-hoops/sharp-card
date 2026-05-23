@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#070707"/>
+  <rect x="40" y="40" width="432" height="432" rx="64" fill="#111111" stroke="#c9a84c" stroke-width="6"/>
+  <!-- Top-left pip -->
+  <text x="52" y="100" font-family="Georgia,serif" font-size="56" font-weight="900" fill="#c9a84c">S</text>
+  <!-- Bottom-right pip (rotated) -->
+  <text x="460" y="430" font-family="Georgia,serif" font-size="56" font-weight="900" fill="#c9a84c"
+        text-anchor="end" transform="rotate(180 460 410)">S</text>
+  <!-- Center monogram -->
+  <text x="256" y="300" font-family="Georgia,serif" font-size="160" font-weight="900" fill="#c9a84c"
+        text-anchor="middle">SC</text>
+  <!-- Subtle horizontal rule -->
+  <line x1="80" y1="340" x2="432" y2="340" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+</svg>
